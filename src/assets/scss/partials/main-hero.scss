@@ -1,16 +1,22 @@
+.main-hero {
+  border-bottom: 2px solid $lightGray;
+  margin: 0;
+}
+
 .hero {
   &-pre-title {
     color: $lightGray;
     font-size: $tSM;
     font-weight: $regularWeight;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
+    margin-top: 1rem;
     text-transform: uppercase;
   }
   &-title {
     color: $fontBlack;
-    font-size: $tLG;
-    font-weight: $regularWeight;
-    letter-spacing: 2px;
+    font-size: $t3XL;
+    font-weight: $heavyWeight;
+    letter-spacing: 8px;
     text-transform: uppercase;
   }
   &-image {
@@ -18,10 +24,11 @@
     width: 80%;
   }
   &-body {
-    @extend .hero-pre-title;
+    color: $lightGray;
     font-size: $tRG;
     hyphens: none;
-    margin: auto;
+    line-height: 1.5;
+    margin: $mt3XL auto auto auto;
     text-transform: none;
     width: 90%;
   }
@@ -30,13 +37,13 @@
 .button {
   background-color: $lightGreen;
   border-radius: 3px;
-  height: 2.25rem;
-  vertical-align: middle;
+  height: 2.5rem;
   &-text {
     color: $white;
+    font-size: $tXS;
     letter-spacing: 1px;
-    margin-right: $mrRG;
-    margin-left: $mlRG;
+    margin-right: $mr3XL;
+    margin-left: $ml3XL;
     text-transform: uppercase;
   }
 }

@@ -1,0 +1,21 @@
+.icon {
+  max-height: 3.75rem;
+  &-section {
+    margin-top: $mtLG;
+  }
+  &-subtitle {
+    color: $blackboard;
+    font-size: $tSM;
+    font-weight: $regularWeight;
+    letter-spacing: 1px;
+    margin-top: $mtRG;
+  }
+  &-main-content {
+    color: $fontBlack;
+    font-size: $tMD;
+    font-weight: $heavyWeight;
+    letter-spacing: 4px;
+    margin-top: $mtRG;
+    text-transform: uppercase;
+  }
+}

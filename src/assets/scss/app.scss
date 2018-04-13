@@ -2,6 +2,18 @@
   "variables",
   "partials/top-bar-logo",
   "partials/main-hero",
+  "partials/icon-section",
+  "partials/footer",
   'template/template',
   'settings',
   'foundation-emails';
+
+.hr {
+  background-color: $lightGray;
+}
+
+.separator {
+  border-bottom: 2px solid $lightGray;
+  margin: 0;
+  width: 75%;
+}
